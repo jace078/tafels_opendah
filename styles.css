@@ -1,0 +1,222 @@
+#header {
+    background-color: #595454;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    color: #fff;
+}
+
+#output {
+
+font-weight: bolder;
+
+}
+
+#opties {
+    margin-bottom: 10px;
+}
+
+
+p {
+	font-size: 14px;
+	line-height: 22.4px;
+	color: #6c7279;
+    font-weight: bolder;
+}
+
+h1 {
+	font-size: 65px;
+	color: #2d3033;
+}
+
+h2 {
+	font-size: 40px;
+	color: #2d3033;
+}
+
+h3 {
+	font-size: 28px;
+	color: #2d3033;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 22px;
+	color: #2d3033;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 14px;
+	color: #2d3033;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+header {
+    color: #595454;
+
+
+
+}
+button {
+    padding: 10px 20px;
+    background-color: #3bc492;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+
+.btn:hover, .btn:focus {
+	background-color: #3d3d3d;
+	color: #fff;
+}
+
+.btn-large {
+	padding: 15px 40px;
+}
+
+a {
+	color: #e84545;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	-moz-transition: background-color, color, 0.3s;
+	-o-transition: background-color, color, 0.3s;
+	-webkit-transition: background-color, color, 0.3s;
+	transition: background-color, color, 0.3s;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #6c7279;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style: none;
+}
+
+.section {
+	padding: 100px 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.no-gutter [class*=col-] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.space {
+	margin-top: 60px;	
+}
+
+/* Tafels thema toegepast */
+.container {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.container h1 {
+	font-size: 40px;
+	color: #2d3033;
+	margin-bottom: 30px;
+}
+
+input[type="number"] {
+	padding: 10px;
+	margin: 10px;
+	font-size: 14px;
+	color: #6c7279;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #595454;;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+button:hover {
+	background-color: #3d3d3d;
+}
+
+#output {
+	text-align: left;
+    margin-left: 46%;
+    margin-top: 3%;
+
+}
+
+#output p {
+	font-size: 24px;
+	line-height: 28.4px;
+	color: #6c7279;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.popup-content {
+    color: #fff;
+}
+
+.popup-close {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#footer {
+    background-color: #595454;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px; /* Afstand vanaf de vragen */
+    text-align: center; /* Centreren van de inhoud */
+    color: #fff; /* Tekstkleur wit */
+}
+
+#footer h2 {
+    margin: 0; /* Verwijder eventuele marges van de kop */
+	color: #fff
+}
